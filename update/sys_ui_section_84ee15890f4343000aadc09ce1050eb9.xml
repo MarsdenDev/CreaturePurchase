@@ -5,13 +5,41 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 14:50:39</sys_created_on>
-            <sys_id>0ceed9890f4343000aadc09ce1050e37</sys_id>
+            <sys_created_on>2017-12-13 21:25:46</sys_created_on>
+            <sys_id>4459b2810f0743000aadc09ce1050e34</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_omg_magical_creature_cleanup" sys_domain="global" view="Default view">84ee15890f4343000aadc09ce1050eb9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 14:50:39</sys_updated_on>
+            <sys_updated_on>2017-12-13 21:25:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-13 21:25:46</sys_created_on>
+            <sys_id>c459b2810f0743000aadc09ce1050e34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_omg_magical_creature_cleanup" sys_domain="global" view="Default view">84ee15890f4343000aadc09ce1050eb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-13 21:25:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-13 21:25:46</sys_created_on>
+            <sys_id>4859b2810f0743000aadc09ce1050e34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_omg_magical_creature_cleanup" sys_domain="global" view="Default view">84ee15890f4343000aadc09ce1050eb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-13 21:25:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

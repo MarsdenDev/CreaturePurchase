@@ -1,116 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="u_creature_type_choice" table="x_177833_a_magical_request_quote_for_magical_creature" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="u_creature_class" table="x_177833_a_magical_request_quote_for_magical_creature" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_creature_type_choice</element>
+            <element>u_creature_class</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Corrupt</label>
+            <label>Dragon</label>
             <language>en</language>
             <name>x_177833_a_magical_request_quote_for_magical_creature</name>
             <sequence>0</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 16:53:50</sys_created_on>
+            <sys_created_on>2017-12-13 21:43:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ec1b3d850f8343000aadc09ce1050e03</sys_id>
+            <sys_id>c96dfec10f0743000aadc09ce1050edd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 16:53:50</sys_updated_on>
-            <value>Corrupt</value>
+            <sys_updated_on>2017-12-13 21:43:36</sys_updated_on>
+            <value>dragon</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_creature_type_choice</element>
+            <element>u_creature_class</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Spirit</label>
+            <label>Griffon</label>
             <language>en</language>
             <name>x_177833_a_magical_request_quote_for_magical_creature</name>
             <sequence>1</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 16:53:50</sys_created_on>
+            <sys_created_on>2017-12-13 21:43:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>601b3d850f8343000aadc09ce1050e05</sys_id>
+            <sys_id>0d6dfec10f0743000aadc09ce1050ede</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 16:53:50</sys_updated_on>
-            <value>Spirit</value>
+            <sys_updated_on>2017-12-13 21:43:36</sys_updated_on>
+            <value>Griffon</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_creature_type_choice</element>
+            <element>u_creature_class</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Blessed</label>
+            <label>Imp</label>
             <language>en</language>
             <name>x_177833_a_magical_request_quote_for_magical_creature</name>
             <sequence>2</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 16:53:50</sys_created_on>
+            <sys_created_on>2017-12-13 21:43:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ec1b3d850f8343000aadc09ce1050e05</sys_id>
+            <sys_id>896dfec10f0743000aadc09ce1050edf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 16:53:50</sys_updated_on>
-            <value>Blessed</value>
+            <sys_updated_on>2017-12-13 21:43:36</sys_updated_on>
+            <value>Imp</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_creature_type_choice</element>
+            <element>u_creature_class</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Fey</label>
+            <label>Angel</label>
             <language>en</language>
             <name>x_177833_a_magical_request_quote_for_magical_creature</name>
             <sequence>3</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 16:53:50</sys_created_on>
+            <sys_created_on>2017-12-13 21:43:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6c1b3d850f8343000aadc09ce1050e06</sys_id>
+            <sys_id>096dfec10f0743000aadc09ce1050ee0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 16:53:50</sys_updated_on>
-            <value>Fey</value>
+            <sys_updated_on>2017-12-13 21:43:36</sys_updated_on>
+            <value>Angel</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_creature_type_choice</element>
+            <element>u_creature_class</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Beast</label>
+            <label>Cherub</label>
             <language>en</language>
             <name>x_177833_a_magical_request_quote_for_magical_creature</name>
             <sequence>4</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 21:40:20</sys_created_on>
+            <sys_created_on>2017-12-13 21:43:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>91acbac10f0743000aadc09ce1050e5a</sys_id>
+            <sys_id>856dfec10f0743000aadc09ce1050ee1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 21:40:20</sys_updated_on>
-            <value>animal</value>
+            <sys_updated_on>2017-12-13 21:43:36</sys_updated_on>
+            <value>Cherub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_creature_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bane</label>
+            <language>en</language>
+            <name>x_177833_a_magical_request_quote_for_magical_creature</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-13 21:43:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>056dfec10f0743000aadc09ce1050ee2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-13 21:43:36</sys_updated_on>
+            <value>Bane</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>u_creature_type_choice</element>
+            <element>u_creature_class</element>
             <name>x_177833_a_magical_request_quote_for_magical_creature</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 16:53:50</sys_created_on>
-            <sys_id>2c1b3d850f8343000aadc09ce1050e04</sys_id>
+            <sys_created_on>2017-12-13 21:43:36</sys_created_on>
+            <sys_id>c56dfec10f0743000aadc09ce1050ede</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>u_creature_type_choice</sys_name>
+            <sys_name>u_creature_class</sys_name>
             <sys_package display_value="A Magical Creatures Bazaar" source="x_177833_a_magical">c9c499090fcf03000aadc09ce1050eb5</sys_package>
             <sys_policy/>
             <sys_scope display_value="A Magical Creatures Bazaar">c9c499090fcf03000aadc09ce1050eb5</sys_scope>
-            <sys_update_name>sys_choice_x_177833_a_magical_request_quote_for_magical_creature_u_creature_type_choice</sys_update_name>
+            <sys_update_name>sys_choice_x_177833_a_magical_request_quote_for_magical_creature_u_creature_class</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 16:53:50</sys_updated_on>
+            <sys_updated_on>2017-12-13 21:43:36</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

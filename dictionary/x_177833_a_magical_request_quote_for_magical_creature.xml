@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Request Quote for Magical Creature" max_length="40" name="x_177833_a_magical_request_quote_for_magical_creature" type="collection">
+    <element audit="true" label="Request Quote for Magical Creature" max_length="40" name="x_177833_a_magical_request_quote_for_magical_creature" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional Comments" max_length="4000" name="u_additional_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="dragon" label="Specify Type" mandatory="true" max_length="40" name="u_creature_class" type="string">
+            <choice>
+                <element label="Dragon" sequence="0" value="dragon"/>
+                <element label="Griffon" sequence="1" value="Griffon"/>
+                <element label="Imp" sequence="2" value="Imp"/>
+                <element label="Angel" sequence="3" value="Angel"/>
+                <element label="Cherub" sequence="4" value="Cherub"/>
+                <element label="Bane" sequence="5" value="Bane"/>
+            </choice>
+        </element>
         <element label="Creature Actually Purchased" max_length="40" name="u_creature_purchased" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="What Type of Creature Do You Want?" mandatory="true" max_length="40" name="u_creature_type_choice" type="string">
             <choice>
@@ -9,10 +20,33 @@
                 <element label="Spirit" sequence="1" value="Spirit"/>
                 <element label="Blessed" sequence="2" value="Blessed"/>
                 <element label="Fey" sequence="3" value="Fey"/>
+                <element label="Beast" sequence="4" value="animal"/>
             </choice>
         </element>
-        <element label="New Due Date" max_length="40" name="u_due_date_2" type="due_date"/>
-        <element attributes="edge_encryption_enabled=true" label="Long Description also Known as Epic Novel section" mandatory="true" max_length="1000" name="u_long_description" type="string"/>
+        <element label="When needed" mandatory="true" max_length="40" name="u_due_date_2" type="due_date"/>
+        <element label="Due date" mandatory="true" max_length="40" name="u_due_date_5" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Long Description" mandatory="true" max_length="1000" name="u_long_description" type="string"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="123" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Requested" label="State" max_length="40" name="u_state" type="string">
+            <choice>
+                <element label="Open" sequence="0" value="Open"/>
+                <element label="Closed" sequence="1" value="Closed"/>
+                <element label="Work In Progress" sequence="2" value="Work In Progress"/>
+                <element label="Waiting On Trapper" sequence="3" value="Waiting On Trapper"/>
+                <element label="Requested" sequence="4" value="Requested"/>
+                <element label="Approved" sequence="5" value="Approved"/>
+                <element label="Awaiting Feedback" sequence="6" value="Awaiting Feedback"/>
+                <element label="Withdrawn" sequence="7" value="Withdrawn"/>
+                <element label="Awaiting Approval" sequence="8" value="Awaiting Approval"/>
+            </choice>
+        </element>
+        <element default="35d2c3850f0743000aadc09ce1050e23" label="Assigned To Team" mandatory="true" max_length="32" name="u_team_assigned" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="u_team_assigned"/>
+        </index>
+        <index name="index2">
+            <element name="u_requested_for"/>
+        </index>
     </element>
 </database>
