@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_177833_a_magical_omg_magical_creature_cleanup">x_177833_a_magical_omg_magical_creature_cleanup</category>
+        <maximum_digits>6</maximum_digits>
+        <number>3000</number>
+        <prefix>OMG</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-13 14:50:07</sys_created_on>
+        <sys_id>9cce19890f4343000aadc09ce1050e5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OMG</sys_name>
+        <sys_package display_value="A Magical Creatures Bazaar" source="x_177833_a_magical">c9c499090fcf03000aadc09ce1050eb5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="A Magical Creatures Bazaar">c9c499090fcf03000aadc09ce1050eb5</sys_scope>
+        <sys_update_name>sys_number_9cce19890f4343000aadc09ce1050e5a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-13 14:50:07</sys_updated_on>
+    </sys_number>
+</record_update>

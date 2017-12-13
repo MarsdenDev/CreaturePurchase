@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Request Quote for Magical Creature" max_length="40" name="x_177833_a_magical_request_quote_for_magical_creature" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Creature Actually Purchased" max_length="40" name="u_creature_purchased" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What Type of Creature Do You Want?" mandatory="true" max_length="40" name="u_creature_type_choice" type="string">
+            <choice>
+                <element label="Corrupt" sequence="0" value="Corrupt"/>
+                <element label="Spirit" sequence="1" value="Spirit"/>
+                <element label="Blessed" sequence="2" value="Blessed"/>
+                <element label="Fey" sequence="3" value="Fey"/>
+            </choice>
+        </element>
+        <element label="New Due Date" max_length="40" name="u_due_date_2" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Long Description also Known as Epic Novel section" mandatory="true" max_length="1000" name="u_long_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="123" name="u_short_description" type="string"/>
+    </element>
+</database>

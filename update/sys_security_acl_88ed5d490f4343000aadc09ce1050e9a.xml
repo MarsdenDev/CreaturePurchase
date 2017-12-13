@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_177833_a_magical_request_quote_for_magical_creature</description>
+        <name>x_177833_a_magical_request_quote_for_magical_creature</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-13 14:46:16</sys_created_on>
+        <sys_id>88ed5d490f4343000aadc09ce1050e9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_177833_a_magical_request_quote_for_magical_creature</sys_name>
+        <sys_package display_value="A Magical Creatures Bazaar" source="x_177833_a_magical">c9c499090fcf03000aadc09ce1050eb5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="A Magical Creatures Bazaar">c9c499090fcf03000aadc09ce1050eb5</sys_scope>
+        <sys_update_name>sys_security_acl_88ed5d490f4343000aadc09ce1050e9a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-13 14:46:16</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
