@@ -3,7 +3,7 @@
     <element audit="true" label="Request Quote for Magical Creature" max_length="40" name="x_177833_a_magical_request_quote_for_magical_creature" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Additional Comments" max_length="4000" name="u_additional_comments" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="dragon" label="Specify Type" mandatory="true" max_length="40" name="u_creature_class" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_creature_type_choice" dependent_on_field="u_creature_type_choice" label="Specify Type" mandatory="true" max_length="40" name="u_creature_class" type="string" use_dependent_field="true">
             <choice>
                 <element label="Dragon" sequence="0" value="dragon"/>
                 <element label="Griffon" sequence="1" value="Griffon"/>
@@ -14,6 +14,21 @@
             </choice>
         </element>
         <element label="Creature Actually Purchased" max_length="40" name="u_creature_purchased" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Specify Species" mandatory="true" max_length="40" name="u_creature_species" type="string">
+            <choice>
+                <element label="Dragon" sequence="0" value="beast1"/>
+                <element label="Gryphon" sequence="1" value="beast2"/>
+                <element label="Manticore" sequence="2" value="beast3"/>
+                <element label="Goul" sequence="3" value="spirit1"/>
+                <element label="Poltergiest" sequence="4" value="spirit2"/>
+                <element label="Sea Fiery" sequence="5" value="spirit3"/>
+                <element label="Angel" sequence="6" value="blessed1"/>
+                <element label="Cherub" sequence="7" value="blessed2"/>
+                <element label="Imp" sequence="8" value="corrupt1"/>
+                <element label="Gasp" sequence="9" value="corrupt2"/>
+                <element label="Other" sequence="10" value="other"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="What Type of Creature Do You Want?" mandatory="true" max_length="40" name="u_creature_type_choice" type="string">
             <choice>
                 <element label="Corrupt" sequence="0" value="Corrupt"/>
@@ -25,7 +40,9 @@
         </element>
         <element label="When needed" mandatory="true" max_length="40" name="u_due_date_2" type="due_date"/>
         <element label="Due date" mandatory="true" max_length="40" name="u_due_date_5" type="due_date"/>
+        <element label="How soon do you need your pet?" mandatory="true" max_length="40" name="u_how_soon" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Long Description" mandatory="true" max_length="1000" name="u_long_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="123" name="u_short_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="Requested" label="State" max_length="40" name="u_state" type="string">

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Only display what creature is relevant. </description>
+        <field>u_creature_type_choice</field>
+        <global>true</global>
+        <messages/>
+        <name>Request a Quote for Magical Creature</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+		if ( newValue == '') {
+			return;
+		}
+
+		var creaturetype = g_form.getValue('u_creature_species');
+
+		// Clear all of the choices from the Creature Species field choice list
+		g_form.clearOptions('u_creature_species');
+
+		// If the value of the Request type field is hr, add
+		// two hr choices and other to the What needed field choice list
+		if(newValue == 'animal'){
+			g_form.addOption('u_creature_species','beast1','Dragon');
+			g_form.addOption('u_creature_species','beast2','Gryphon');
+			g_form.addOption('u_creature_species','beast3','Manticore');
+			g_form.addOption('u_creature_species','other','Other');
+		}
+		// If the value of the Request type field is spirit, add
+		// two spirit choices and other to the What needed field
+		// choice list
+		if(newValue == 'Spirit'){
+			g_form.addOption('u_creature_species','spirit1','Ghoul');
+			g_form.addOption('u_creature_species','spirit2','Poltergeist');
+			g_form.addOption('u_creature_species','other','Other');
+		}
+		// If the value of the Request type field is fey, add
+		// two fey choices and other to the What needed field
+		// choice list
+		if(newValue == 'Fey'){
+			g_form.addOption('u_creature_species','fey1','Sea Fiery');
+			g_form.addOption('u_creature_species','other','Other');
+		}
+	// If the value of the Request type field is Blessed, add
+		// two blessed choices and other to the What needed field choice list
+		if(newValue == 'Blessed'){
+			g_form.addOption('u_creature_species','blessed1','Angel');
+			g_form.addOption('u_creature_species','blessed2','Cherub');
+			g_form.addOption('u_creature_species','other','Other');
+		}
+		// If the value of the Request type field is Corrupt, add
+		// two corrupt choices and other to the What needed field choice list
+		if(newValue == 'Corrupt'){
+			g_form.addOption('u_creature_species','corrupt1','Imp');
+			g_form.addOption('u_creature_species','corrupt2','Gasp');
+			g_form.addOption('u_creature_species','other','Other');
+		}
+
+		// If the form is loading and it is not a new record, set the u_what_needed value to the
+		// value from the record before it was loaded
+		if(isLoading && !g_form.isNewRecord()){
+			g_form.setValue('u_creature_species', creaturetype);
+		}
+	}   ]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-14 15:34:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>29217e590f8b43000aadc09ce1050ecd</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Request a Quote for Magical Creature</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="A Magical Creatures Bazaar" source="x_177833_a_magical">c9c499090fcf03000aadc09ce1050eb5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="A Magical Creatures Bazaar">c9c499090fcf03000aadc09ce1050eb5</sys_scope>
+        <sys_update_name>sys_script_client_29217e590f8b43000aadc09ce1050ecd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-15 22:29:16</sys_updated_on>
+        <table>x_177833_a_magical_request_quote_for_magical_creature</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

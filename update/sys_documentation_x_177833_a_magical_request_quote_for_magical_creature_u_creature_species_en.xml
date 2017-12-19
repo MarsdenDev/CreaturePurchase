@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_creature_species" label="Specify Species" language="en" table="x_177833_a_magical_request_quote_for_magical_creature">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_creature_species</element>
+            <help/>
+            <hint/>
+            <label>Specify Species</label>
+            <language>en</language>
+            <name>x_177833_a_magical_request_quote_for_magical_creature</name>
+            <plural>Specify Species</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-14 16:00:00</sys_created_on>
+            <sys_id>f958325d0f8b43000aadc09ce1050e73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Specify Species</sys_name>
+            <sys_package display_value="A Magical Creatures Bazaar" source="x_177833_a_magical">c9c499090fcf03000aadc09ce1050eb5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A Magical Creatures Bazaar">c9c499090fcf03000aadc09ce1050eb5</sys_scope>
+            <sys_update_name>sys_documentation_x_177833_a_magical_request_quote_for_magical_creature_u_creature_species_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-14 16:00:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

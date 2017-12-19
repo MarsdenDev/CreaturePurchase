@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 22:17:38</sys_created_on>
-            <sys_id>e3250bc50f0743000aadc09ce1050ebd</sys_id>
+            <sys_created_on>2017-12-14 16:37:47</sys_created_on>
+            <sys_id>5bf0c7510fcb43000aadc09ce1050e87</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_request_quote_for_magical_creature" sys_domain="global" view="Default view">570229890f4343000aadc09ce1050e6c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 22:17:38</sys_updated_on>
+            <sys_updated_on>2017-12-14 16:37:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>u_requested_for</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 22:17:38</sys_created_on>
-            <sys_id>67250bc50f0743000aadc09ce1050ebd</sys_id>
+            <sys_created_on>2017-12-14 16:37:47</sys_created_on>
+            <sys_id>dbf0c7510fcb43000aadc09ce1050e87</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_request_quote_for_magical_creature" sys_domain="global" view="Default view">570229890f4343000aadc09ce1050e6c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 22:17:38</sys_updated_on>
+            <sys_updated_on>2017-12-14 16:37:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,153 +33,167 @@
             <element>u_creature_type_choice</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 22:17:38</sys_created_on>
-            <sys_id>e7250bc50f0743000aadc09ce1050ebd</sys_id>
+            <sys_created_on>2017-12-14 16:37:47</sys_created_on>
+            <sys_id>5ff0c7510fcb43000aadc09ce1050e87</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_request_quote_for_magical_creature" sys_domain="global" view="Default view">570229890f4343000aadc09ce1050e6c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 22:17:38</sys_updated_on>
+            <sys_updated_on>2017-12-14 16:37:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_creature_class</element>
+            <element>u_creature_species</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 22:17:38</sys_created_on>
-            <sys_id>6b250bc50f0743000aadc09ce1050ebd</sys_id>
+            <sys_created_on>2017-12-14 16:37:47</sys_created_on>
+            <sys_id>dff0c7510fcb43000aadc09ce1050e87</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_request_quote_for_magical_creature" sys_domain="global" view="Default view">570229890f4343000aadc09ce1050e6c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 22:17:38</sys_updated_on>
+            <sys_updated_on>2017-12-14 16:37:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_due_date_5</element>
+            <element>u_other</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 22:17:38</sys_created_on>
-            <sys_id>eb250bc50f0743000aadc09ce1050ebd</sys_id>
+            <sys_created_on>2017-12-14 16:37:47</sys_created_on>
+            <sys_id>53f0c7510fcb43000aadc09ce1050e88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_request_quote_for_magical_creature" sys_domain="global" view="Default view">570229890f4343000aadc09ce1050e6c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 22:17:38</sys_updated_on>
+            <sys_updated_on>2017-12-14 16:37:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_how_soon</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-14 16:37:47</sys_created_on>
+            <sys_id>d3f0c7510fcb43000aadc09ce1050e88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_request_quote_for_magical_creature" sys_domain="global" view="Default view">570229890f4343000aadc09ce1050e6c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-14 16:37:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 22:17:38</sys_created_on>
-            <sys_id>6f250bc50f0743000aadc09ce1050ebd</sys_id>
+            <sys_created_on>2017-12-14 16:37:47</sys_created_on>
+            <sys_id>57f0c7510fcb43000aadc09ce1050e88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_request_quote_for_magical_creature" sys_domain="global" view="Default view">570229890f4343000aadc09ce1050e6c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 22:17:38</sys_updated_on>
+            <sys_updated_on>2017-12-14 16:37:47</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_created_on</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 22:17:38</sys_created_on>
-            <sys_id>ef250bc50f0743000aadc09ce1050ebd</sys_id>
+            <sys_created_on>2017-12-14 16:37:47</sys_created_on>
+            <sys_id>d7f0c7510fcb43000aadc09ce1050e88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_request_quote_for_magical_creature" sys_domain="global" view="Default view">570229890f4343000aadc09ce1050e6c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 22:17:38</sys_updated_on>
+            <sys_updated_on>2017-12-14 16:37:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_team_assigned</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 22:17:38</sys_created_on>
-            <sys_id>63250bc50f0743000aadc09ce1050ebe</sys_id>
+            <sys_created_on>2017-12-14 16:37:47</sys_created_on>
+            <sys_id>5bf0c7510fcb43000aadc09ce1050e88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_request_quote_for_magical_creature" sys_domain="global" view="Default view">570229890f4343000aadc09ce1050e6c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 22:17:38</sys_updated_on>
+            <sys_updated_on>2017-12-14 16:37:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_state</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 22:17:38</sys_created_on>
-            <sys_id>e3250bc50f0743000aadc09ce1050ebe</sys_id>
+            <sys_created_on>2017-12-14 16:37:47</sys_created_on>
+            <sys_id>dbf0c7510fcb43000aadc09ce1050e88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_request_quote_for_magical_creature" sys_domain="global" view="Default view">570229890f4343000aadc09ce1050e6c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 22:17:38</sys_updated_on>
+            <sys_updated_on>2017-12-14 16:37:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_updated_on</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 22:17:38</sys_created_on>
-            <sys_id>67250bc50f0743000aadc09ce1050ebe</sys_id>
+            <sys_created_on>2017-12-14 16:37:47</sys_created_on>
+            <sys_id>5ff0c7510fcb43000aadc09ce1050e88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_request_quote_for_magical_creature" sys_domain="global" view="Default view">570229890f4343000aadc09ce1050e6c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 22:17:38</sys_updated_on>
+            <sys_updated_on>2017-12-14 16:37:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 22:17:38</sys_created_on>
-            <sys_id>e7250bc50f0743000aadc09ce1050ebe</sys_id>
+            <sys_created_on>2017-12-14 16:37:47</sys_created_on>
+            <sys_id>dff0c7510fcb43000aadc09ce1050e88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_request_quote_for_magical_creature" sys_domain="global" view="Default view">570229890f4343000aadc09ce1050e6c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 22:17:38</sys_updated_on>
+            <sys_updated_on>2017-12-14 16:37:47</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_short_description</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 22:17:38</sys_created_on>
-            <sys_id>6b250bc50f0743000aadc09ce1050ebe</sys_id>
+            <sys_created_on>2017-12-14 16:37:47</sys_created_on>
+            <sys_id>53f0c7510fcb43000aadc09ce1050e89</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_request_quote_for_magical_creature" sys_domain="global" view="Default view">570229890f4343000aadc09ce1050e6c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 22:17:38</sys_updated_on>
+            <sys_updated_on>2017-12-14 16:37:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_long_description</element>
-            <position>12</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-13 22:17:38</sys_created_on>
-            <sys_id>eb250bc50f0743000aadc09ce1050ebe</sys_id>
+            <sys_created_on>2017-12-14 16:37:47</sys_created_on>
+            <sys_id>d3f0c7510fcb43000aadc09ce1050e89</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_a_magical_request_quote_for_magical_creature" sys_domain="global" view="Default view">570229890f4343000aadc09ce1050e6c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-13 22:17:38</sys_updated_on>
+            <sys_updated_on>2017-12-14 16:37:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
