@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_177833_a_magical_request_quote_for_magical_creature">u_how_soonRELATIVELE@dayofweek@ahead@14^EQ<item endquery="false" field="u_how_soon" goto="false" newquery="false" operator="RELATIVE" or="false" value="LE@dayofweek@ahead@14"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false/>
+        <script_true><![CDATA[function onCondition() {
+		// Display a message under the update field to explain requested time is not actual time in the
+		// Other field.
+		g_form.showFieldMsg('u_how_soon','Crating and shipping a magical creature takes longer than two weeks. You are silly to even ask this soon please ask for an order at least a month out.','info');
+	 }]]></script_true>
+        <set_values/>
+        <short_description>Short Notation that requested time is not expected time</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-19 14:33:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3b2350830f4707000aadc09ce1050e1a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Short Notation that requested time is not expected time</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="A Magical Creatures Bazaar" source="x_177833_a_magical">c9c499090fcf03000aadc09ce1050eb5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="A Magical Creatures Bazaar">c9c499090fcf03000aadc09ce1050eb5</sys_scope>
+        <sys_update_name>sys_ui_policy_3b2350830f4707000aadc09ce1050e1a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-19 14:50:40</sys_updated_on>
+        <table>x_177833_a_magical_request_quote_for_magical_creature</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>
